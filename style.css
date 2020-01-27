@@ -1,0 +1,13 @@
+h1{
+      display: flex;
+      justify-content: center;
+}
+#GetUsers{
+      border-radius: 25px;
+}
+#UserName{
+      border-radius: 25px;
+}
+#ul{
+      border-radius: 25px !important;
+}
