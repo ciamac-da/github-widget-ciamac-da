@@ -20,7 +20,7 @@ class Github {
 
                   <li class="list-group-item">Name: ${user.name}</li>
                   <li class="list-group-item">Description: ${user.description === null ? "" : user.description  }</li>
-                  <li class="list-group-item">Create Date: ${user.created_at.slice(8,10)}.${user.created_at.slice(5,8)}${user.created_at.slice(0,4)} ${user.created_at.slice(11,19)}</li>
+                  <li class="list-group-item">Create Date: ${user.created_at.slice(8,10)}.${user.created_at.slice(5,7)}.${user.created_at.slice(0,4)} ${user.created_at.slice(11,19)}</li>
 
                   </ul>`
                   ;
